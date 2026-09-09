@@ -53,22 +53,36 @@ MAMINGWIT-CHECKER-/
 ---
 
 ## 1. Clone the repository
+```bash
 git clone [https://github.com/tofutof/MAMINGWIT-CHECKER-.git](https://github.com/tofutof/MAMINGWIT-CHECKER-.git)
 cd MAMINGWIT-CHECKER-
+```
 
 ## 2. Create and activate a virtual environment
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
+```
 
 ## 3. Install required dependencies
+```bash
 pip install -r requirements.txt
+```
+
 
 ----
 
+Run the primary check on a single suspicious URL:
+
+```bash
 python main.py --url "[http://secure-login-update-account.com](http://secure-login-update-account.com)"
+```
 
 ---
 
-python main.py --file suspicious_links.txt --export results.json
+If you have a list of targets harvested from a log file, run the bulk check:
 
+```bash
+python main.py --file suspicious_links.txt --export results.json
+```
 
