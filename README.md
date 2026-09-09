@@ -52,19 +52,23 @@ MAMINGWIT-CHECKER-/
 
 ---
 
-# 1. Clone the repository
+## 1. Clone the repository
 git clone [https://github.com/tofutof/MAMINGWIT-CHECKER-.git](https://github.com/tofutof/MAMINGWIT-CHECKER-.git)
 cd MAMINGWIT-CHECKER-
 
-# 2. Create and activate a virtual environment
+## 2. Create and activate a virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
-# 3. Install required dependencies
+## 3. Install required dependencies
 pip install -r requirements.txt
 
 ----
 
 python main.py --url "[http://secure-login-update-account.com](http://secure-login-update-account.com)"
+
+---
+
+python main.py --file suspicious_links.txt --export results.json
 
 
