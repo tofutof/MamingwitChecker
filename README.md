@@ -47,6 +47,11 @@ MAMINGWIT-CHECKER-/
 ├── main.py               # Application entry point
 ├── requirements.txt      # Python dependencies
 └── README.mdx            # Project documentation
+```
+</details>
+
+---
+
 # 1. Clone the repository
 git clone [https://github.com/tofutof/MAMINGWIT-CHECKER-.git](https://github.com/tofutof/MAMINGWIT-CHECKER-.git)
 cd MAMINGWIT-CHECKER-
@@ -57,3 +62,9 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
 # 3. Install required dependencies
 pip install -r requirements.txt
+
+----
+
+python main.py --url "[http://secure-login-update-account.com](http://secure-login-update-account.com)"
+
+
